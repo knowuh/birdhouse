@@ -16,19 +16,22 @@ var __copyProps = (to, from, except, desc) => {
   }
   return to;
 };
-var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target, mod));
+var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__getProtoOf(mod)) : {}, __copyProps(
+  isNodeMode || !mod || !mod.__esModule ? __defProp(target, "default", { value: mod, enumerable: true }) : target,
+  mod
+));
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 var stdin_exports = {};
 __export(stdin_exports, {
-  css: () => css,
-  entry: () => entry,
+  file: () => file,
+  imports: () => imports,
   index: () => index,
-  js: () => js,
-  module: () => module2
+  module: () => module2,
+  stylesheets: () => stylesheets
 });
 module.exports = __toCommonJS(stdin_exports);
 var module2 = __toESM(require("../entries/fallbacks/error.svelte.js"));
 const index = 1;
-const entry = "error.svelte-d5c9c1d8.js";
-const js = ["error.svelte-d5c9c1d8.js", "chunks/index-7e3e17d5.js"];
-const css = [];
+const file = "_app/immutable/error.svelte-65173a83.js";
+const imports = ["_app/immutable/error.svelte-65173a83.js", "_app/immutable/chunks/index-9f877662.js"];
+const stylesheets = [];
